@@ -1,0 +1,75 @@
+.product-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  height: 30vh;
+  max-height: 30vh;
+  width: 200px;
+  text-align: center;
+
+  .product-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+  }
+
+  .product-name {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+
+  .product-description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+  }
+
+  .product-price {
+    font-weight: bold;
+  }
+  .Buttons {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    align-self: stretch;
+    margin-top: 5%;
+  }
+
+  .Delete-button {
+    display: flex;
+    padding: 13px 16px;
+    height: 2.75rem;
+    width: 10.969rem;
+    justify-content: center;
+    align-items: center;
+    color: #3352e2;
+    gap: 4px;
+    align-self: stretch;
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid #3352e2;
+    cursor: pointer;
+  }
+  .Edit-button {
+    display: flex;
+    padding: 13px 16px;
+    height: 2.75rem;
+    width: 10.969rem;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    align-self: stretch;
+    border-radius: 8px;
+    background: #3352e2;
+    border: none;
+    margin-right: 2%;
+    cursor: pointer;
+  }
+}
